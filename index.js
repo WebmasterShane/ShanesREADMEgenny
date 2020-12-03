@@ -2,7 +2,7 @@ const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown.js")
-const writeFileAsync = util.promisify(fs.writeFile);
+
 
 //Questions to fill the README document
 
@@ -11,32 +11,32 @@ const questionPrompts = () =>
         {
             type: "input",
             name: "Title",
-            question: "What is the project title?"
+            message: "What is the project title?"
         },
         {
             type: "input",
             name: "Description",
-            question: "Describe your project"
+            message: "Describe your project"
         },
         {
             type: "input",
             name: "Installation",
-            question: "How do you Install your project?"
+            message: "How do you Install your project?"
         },
         {
             type: "input",
             name: "Use",
-            question: "Briefly describe how to use this project."
+            message: "Briefly describe how to use this project."
         },
         {
             type: "input",
             name: "contribute",
-            question: "explain how others could contribute to this project"
+            message: "explain how others could contribute to this project"
         },
         {
             type: "input",
             name: "test",
-            question: "if there is a test included explain how to run it."
+            message: "if there is a test included explain how to run it."
         },
         {
             type: "list",
@@ -52,6 +52,17 @@ const questionPrompts = () =>
                 "Open"
             ]
         },
+        {
+            type: "input",
+            name: "githubuser",
+            message: "What is your github UserName?"
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "What is your email?"
+        },
+
     ])
 
 
@@ -62,15 +73,6 @@ fs.appendFile('README.md', generateMarkdown(response) ,(err) =>
 console.log('Success!')
 
 )});
-// function to initialize program
-// function init() {
-//     const respo = questionPrompts();
-//     const generate = generateMarkdown(respo)
-//     fs.appendFile('README.md', (generate), (err) => console.log("Success!"))
-
-
-
-// function call to initialize program
 
 
 

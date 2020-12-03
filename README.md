@@ -1,8 +1,6 @@
-// function to generate markdown for README
-function generateMarkdown(respo) {
-  return `# ${respo.Title}
+# This is a title
 
-  ![badge](https://img.shields.io/badge/license-${respo.license}-brightgreen)<br />
+  ![badge](https://img.shields.io/badge/license-Apache-brightgreen)<br />
 
   #Table of Contents<br />
   [Description](#Description)<br />
@@ -13,31 +11,27 @@ function generateMarkdown(respo) {
   [Contact](Contact Me)<br />
 
   ## Description
-  ${respo.Description}
+  This is what the project is
 
   ## Installation
-  ${respo.Installation}
+  this is how you install the project
 
   ## Usage
-  ${respo.Use}
+  this is how you use the project
 
   ## How you can contribute
-  ${respo.contribute}
+  this is how you can contribute
 
   ## Testing included
-  ${respo.test}
+  this is how you run tests
 
   
 
   ### Contact Me
-  [${respo.githubuser}](github.com/${respo.githubuser}) <br />
-  ${respo.email}
+  [WebmasterShane](github.com/WebmasterShane) <br />
+  shanelwebber@gmail.com
 
 
   [![ForTheBadge built-by-WebmasterShane](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://GitHub.com/WebmasterShane/)
 
 
-`;
-}
-
-module.exports = generateMarkdown;
