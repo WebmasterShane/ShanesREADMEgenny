@@ -8,9 +8,9 @@ function generateMarkdown(respo) {
   [Description](#Description)<br />
   [Installation](#Installation)<br />
   [Use](#Usage)<br />
-  [Contribute](How you can contribute)<br />
-  [Testing](Testing included)<br />
-  [Contact](Contact Me)<br />
+  [Contribute](#How you can contribute)<br />
+  [Testing](#Testing included)<br />
+  [Contact](#Contact Me)<br />
 
   ## Description
   ${respo.Description}
