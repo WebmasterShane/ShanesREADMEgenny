@@ -4,13 +4,13 @@ function generateMarkdown(respo) {
 
   ![badge](https://img.shields.io/badge/license-${respo.license}-brightgreen)<br />
 
-  #Table of Contents<br />
+  ## Table of Contents<br />
   [Description](#Description)<br />
   [Installation](#Installation)<br />
   [Use](#Usage)<br />
-  [Contribute](#How you can contribute)<br />
-  [Testing](#Testing included)<br />
-  [Contact](#Contact Me)<br />
+  [Contribute](#Contribute)<br />
+  [Testing](#Testing)<br />
+  [Contact](#Contact)<br />
 
   ## Description
   ${respo.Description}
@@ -21,21 +21,19 @@ function generateMarkdown(respo) {
   ## Usage
   ${respo.Use}
 
-  ## How you can contribute
+  ## Contribute
   ${respo.contribute}
 
-  ## Testing included
+  ## Testing
   ${respo.test}
 
   
 
-  ### Contact Me
-  [${respo.githubuser}](github.com/${respo.githubuser}) <br />
+  ### Contact
+  [${respo.githubuser}](https://github.com/${respo.githubuser}) <br />
   ${respo.email}
-
-
-  [![ForTheBadge built-by-WebmasterShane](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://GitHub.com/WebmasterShane/)
-
+ 
+  
 
 `;
 }

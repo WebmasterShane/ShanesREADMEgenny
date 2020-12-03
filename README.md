@@ -1,37 +1,32 @@
-# This is a title
+# Shanes README Generator
 
-  ![badge](https://img.shields.io/badge/license-Mozilla-brightgreen)<br />
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 
-  #Table of Contents<br />
+  ## Table of Contents<br />
   [Description](#Description)<br />
   [Installation](#Installation)<br />
   [Use](#Usage)<br />
-  [Contribute](#How you can contribute)<br />
-  [Testing](#Testing included)<br />
-  [Contact](#Contact Me)<br />
+  [Testing](#Testing)<br />
+  [Contact](#Contact)<br />
 
   ## Description
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  This project uses Node js and Inquirerer to prompt questions that allow you to easily fill out a quality README for any of your developing needs
 
   ## Installation
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Ensure you have Node JS installed on your computer. Once you have cloned the repository run 'npm init' to make sure you have all the required nodes installed into the directory.
 
   ## Usage
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  [Demonstration Video](https://drive.google.com/file/d/1U8FKwDar7teICqbIoSH394T272PisK62/view?usp=sharing)
+  
 
-  ## How you can contribute
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-  ## Testing included
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  ## Testing
+  To test to see if everything is working properly run 'Node Index' and check if you are prompted questions. Once finished you will get a success signal in the console. If it was unsuccessful it will return an error.
 
   
 
-  ### Contact Me
-  [WebmasterShane](github.com/WebmasterShane) <br />
+  ### Contact
+  [WebmasterShane](https://github.com/WebmasterShane) <br />
   shanelwebber@gmail.com
-
-
-  [![ForTheBadge built-by-WebmasterShane](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://GitHub.com/WebmasterShane/)
-
+ 
+  
 
