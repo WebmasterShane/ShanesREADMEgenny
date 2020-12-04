@@ -16,7 +16,7 @@
   Ensure you have Node JS installed on your computer. Once you have cloned the repository run 'npm init' to make sure you have all the required nodes installed into the directory.
 
   ## Usage
-  [Demonstration Video](https://drive.google.com/file/d/1U8FKwDar7teICqbIoSH394T272PisK62/view?usp=sharing)
+  [Demonstration Video](https://youtu.be/6h3LC9-uLMo)
   
   ![alt text](https://github.com/WebmasterShane/ShanesREADMEgenny/blob/master/Video/Screenshot.jpg)
 
