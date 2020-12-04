@@ -18,6 +18,7 @@
   ## Usage
   [Demonstration Video](https://drive.google.com/file/d/1U8FKwDar7teICqbIoSH394T272PisK62/view?usp=sharing)
   
+  ![alt text](https://github.com/WebmasterShane/ShanesREADMEgenny/blob/master/Video/Screenshot.jpg)
 
   ## Testing
   To test to see if everything is working properly run 'Node Index' and check if you are prompted questions. Once finished you will get a success signal in the console. If it was unsuccessful it will return an error.
